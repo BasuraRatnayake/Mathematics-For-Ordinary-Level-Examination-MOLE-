@@ -1,0 +1,23 @@
+﻿Build started 18/11/2013 14:39:46.
+     1>Project "D:\Documents\NIBM\Final Project\C++\fMOLE\fMOLE\fMOLE.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib baseF.cpp
+         baseF.cpp
+     1>d:\documents\nibm\final project\c++\fmole\fmole\baseF.h(201): warning C4101: 'e' : unreferenced local variable
+     1>d:\documents\nibm\final project\c++\fmole\fmole\baseF.h(220): warning C4101: 'e' : unreferenced local variable
+     1>d:\documents\nibm\final project\c++\fmole\fmole\baseF.h(228): warning C4101: 'e' : unreferenced local variable
+     1>d:\documents\nibm\final project\c++\fmole\fmole\baseF.h(236): warning C4101: 'e' : unreferenced local variable
+     1>d:\documents\nibm\final project\c++\fmole\fmole\baseF.h(244): warning C4101: 'e' : unreferenced local variable
+     1>d:\documents\nibm\final project\c++\fmole\fmole\baseF.h(252): warning C4101: 'e' : unreferenced local variable
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\NIBM\Final Project\C++\fMOLE\Debug\fMOLE.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\fMOLE.baseF.resources /ASSEMBLYRESOURCE:Debug\fMOLE.loadContent.resources /ASSEMBLYRESOURCE:Debug\fMOLE.searchR.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\NIBM\Final Project\C++\fMOLE\Debug\fMOLE.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\fMOLE.res
+         Debug\baseF.obj
+         Debug\loadContent.obj
+         Debug\searchR.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         fMOLE.vcxproj -> D:\Documents\NIBM\Final Project\C++\fMOLE\Debug\fMOLE.exe
+     1>Done Building Project "D:\Documents\NIBM\Final Project\C++\fMOLE\fMOLE\fMOLE.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.11

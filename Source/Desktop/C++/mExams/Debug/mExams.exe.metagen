@@ -1,0 +1,94 @@
+  mExams.apE.resources - Embedded, ContainedInManifestFile, 
+  mExams.baseF.resources - Embedded, ContainedInManifestFile, 
+  mExams.binoE.resources - Embedded, ContainedInManifestFile, 
+  mExams.ForU.resources - Embedded, ContainedInManifestFile, 
+  mExams.freqD.resources - Embedded, ContainedInManifestFile, 
+  mExams.gpE.resources - Embedded, ContainedInManifestFile, 
+  mExams.scaD.resources - Embedded, ContainedInManifestFile, 
+  mExams.showR.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly mExams, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class mExams.showR: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 tot : Public
+  Methods:
+    setData(): PrivateScope, Public, HideBySig
+Class mExams.Core: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.Windows.Forms.Form, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    System.Windows.Forms.RadioButton[] aSet : Public
+    Int32 total : Public
+  Methods:
+    showD(String, String): PrivateScope, Public, HideBySig
+    createControls(): PrivateScope, Public, HideBySig
+    topB1_2_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    topB1_1_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    topP_B_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    tim_Tick(Object, EventArgs): PrivateScope, Public, HideBySig
+    botP_B_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    readEData(): PrivateScope, Public, HideBySig
+    timFun(): PrivateScope, Public, HideBySig
+    showExam(): PrivateScope, Public, HideBySig
+    checkAnswer(): PrivateScope, Public, HideBySig
+    WriteExam2File(String, String, String): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class mExams.apE: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    mExams.Core core : Public
+Class mExams.gpE: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    mExams.Core core : Public
+  Methods:
+    setAnswer(): PrivateScope, Public, HideBySig
+Class mExams.binoE: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    mExams.Core core : Public
+  Methods:
+    setAnswer(): PrivateScope, Public, HideBySig
+Class mExams.ForU: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    mExams.Core core : Public
+  Methods:
+    setAnswer(): PrivateScope, Public, HideBySig
+Class mExams.freqD: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    mExams.Core core : Public
+  Methods:
+    setAnswer(): PrivateScope, Public, HideBySig
+Class mExams.scaD: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    mExams.Core core : Public
+  Methods:
+    setAnswer(): PrivateScope, Public, HideBySig
+Class mExams.baseF: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

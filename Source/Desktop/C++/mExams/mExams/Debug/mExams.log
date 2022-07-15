@@ -1,0 +1,24 @@
+﻿Build started 20/11/2013 19:36:18.
+     1>Project "D:\Documents\NIBM\Final Project\C++\mExams\mExams\mExams.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib baseF.cpp scaD.cpp
+         baseF.cpp
+         scaD.cpp
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\NIBM\Final Project\C++\mExams\Debug\mExams.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\mExams.apE.resources /ASSEMBLYRESOURCE:Debug\mExams.baseF.resources /ASSEMBLYRESOURCE:Debug\mExams.binoE.resources /ASSEMBLYRESOURCE:Debug\mExams.ForU.resources /ASSEMBLYRESOURCE:Debug\mExams.freqD.resources /ASSEMBLYRESOURCE:Debug\mExams.gpE.resources /ASSEMBLYRESOURCE:Debug\mExams.scaD.resources /ASSEMBLYRESOURCE:Debug\mExams.showR.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\NIBM\Final Project\C++\mExams\Debug\mExams.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\mExams.res
+         Debug\apE.obj
+         Debug\baseF.obj
+         Debug\binoE.obj
+         Debug\ForU.obj
+         Debug\freqD.obj
+         Debug\gpE.obj
+         Debug\scaD.obj
+         Debug\showR.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         mExams.vcxproj -> D:\Documents\NIBM\Final Project\C++\mExams\Debug\mExams.exe
+     1>Done Building Project "D:\Documents\NIBM\Final Project\C++\mExams\mExams\mExams.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.11

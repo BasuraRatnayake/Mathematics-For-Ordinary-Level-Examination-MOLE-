@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E64F7BF9-49CE-40CB-A247-8241F96CA14C}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>mExams</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="apE.cpp" />
+    <ClCompile Include="baseF.cpp" />
+    <ClCompile Include="binoE.cpp" />
+    <ClCompile Include="ForU.cpp" />
+    <ClCompile Include="freqD.cpp" />
+    <ClCompile Include="gpE.cpp" />
+    <ClCompile Include="scaD.cpp" />
+    <ClCompile Include="showR.cpp" />
+    <ClCompile Include="speed.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="apE.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="baseF.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="binoE.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CoreControls.h" />
+    <ClInclude Include="ForU.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="freqD.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="gpE.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="scaD.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="showR.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="speed.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="apE.resx">
+      <DependentUpon>apE.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="baseF.resx">
+      <DependentUpon>baseF.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="binoE.resx">
+      <DependentUpon>binoE.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForU.resx">
+      <DependentUpon>ForU.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="freqD.resx">
+      <DependentUpon>freqD.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gpE.resx">
+      <DependentUpon>gpE.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scaD.resx">
+      <DependentUpon>scaD.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showR.resx">
+      <DependentUpon>showR.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="speed.resx">
+      <DependentUpon>speed.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mExams.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\Pictures\Icon\ico\altimeter.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

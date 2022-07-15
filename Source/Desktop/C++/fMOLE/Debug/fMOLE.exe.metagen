@@ -1,0 +1,44 @@
+  fMOLE.baseF.resources - Embedded, ContainedInManifestFile, 
+  fMOLE.loadContent.resources - Embedded, ContainedInManifestFile, 
+  fMOLE.searchR.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly fMOLE, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class fMOLE.loadContent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class fMOLE.searchR: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getData(): PrivateScope, Public, HideBySig
+    ResultS(Panel): PrivateScope, Public, HideBySig
+Class fMOLE.baseF: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String path : Public
+    System.Windows.Forms.Panel[] pSet : Public
+    System.Windows.Forms.PictureBox[] picSet : Public
+    System.Windows.Forms.PictureBox[] onlSet : Public
+    System.Windows.Forms.PictureBox[] remSet : Public
+    System.Windows.Forms.Label[] labSet : Public
+    Int32 x : Public
+  Methods:
+    setPanels(): PrivateScope, Public, HideBySig
+    funCreate(Int32, String, String): PrivateScope, Public, HideBySig
+    addF(String): PrivateScope, Public, HideBySig
+    removeF(String): PrivateScope, Public, HideBySig
+    setPImage(Int32): PrivateScope, Public, HideBySig

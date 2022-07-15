@@ -1,0 +1,11 @@
+CF = 3
+UCF = 0
+FUser = prasangaweerasooriya
+Confirm = Y
+FON = N
+FUser = punarjeewa
+Confirm = Y
+FON = N
+FUser = sachika
+Confirm = Y
+FON = N

@@ -1,0 +1,20 @@
+﻿Build started 09/11/2013 20:05:51.
+     1>Project "D:\Documents\NIBM\Final Project\C++\mCalculator\mCalculator\mCalculator.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib baseF.cpp
+         baseF.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\NIBM\Final Project\C++\mCalculator\Debug\mCalculator.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\mCalculator.apCal.resources /ASSEMBLYRESOURCE:Debug\mCalculator.aStart.resources /ASSEMBLYRESOURCE:Debug\mCalculator.baseF.resources /ASSEMBLYRESOURCE:Debug\mCalculator.bis.resources /ASSEMBLYRESOURCE:Debug\mCalculator.gpCal.resources /ASSEMBLYRESOURCE:Debug\mCalculator.percen.resources /ASSEMBLYRESOURCE:Debug\mCalculator.pyth.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\NIBM\Final Project\C++\mCalculator\Debug\mCalculator.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\NIBM\Final Project\C++\mCalculator\Debug\mCalculator.lib" /MACHINE:X86 Debug\mCalculator.res
+         Debug\apCal.obj
+         Debug\aStart.obj
+         Debug\baseF.obj
+         Debug\bis.obj
+         Debug\gpCal.obj
+         Debug\percen.obj
+         Debug\pyth.obj
+         mCalculator.vcxproj -> D:\Documents\NIBM\Final Project\C++\mCalculator\Debug\mCalculator.exe
+     1>Done Building Project "D:\Documents\NIBM\Final Project\C++\mCalculator\mCalculator\mCalculator.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.22
